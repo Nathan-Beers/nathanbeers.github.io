@@ -26,11 +26,13 @@
 }
 
 .home-background {
-    position: relative;
+    position: absolute;
     width: 728px;
     height: 516px;
     opacity: 0.7;
     mix-blend-mode: darken;
     float: right;
     margin-right: 80px;
+    left: 43%;
+    top: 184px;
 }
