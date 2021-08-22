@@ -41,6 +41,24 @@ p {
     color: $color-primary;
 }
 
-a, a:hover, a:visited {
-    text-decoration: none;
+a, a:hover, a:visited{
+    text-decoration: none!important;
+    color: $color-primary!important;
 } 
+
+    
+a.nav-font:hover {
+    background-image: url(./resources/colouring-textures.png);
+    background-size: 150px 50px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-position: center;
+    mix-blend-mode: darken;
+    opacity: 0.7;
+    animation: ease-in-out;
+}
+
+
+body {
+    background: url(./resources/page-background-texture.png);
+}
