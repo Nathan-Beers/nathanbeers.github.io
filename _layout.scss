@@ -168,7 +168,7 @@ nav {
     width: 100vw;
     height: 30vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 80px;
     min-width: 1000px;
     
@@ -194,6 +194,16 @@ nav {
         width: 264px;
         height: 162px;
     }
+
+    .project1-code,
+    .project2-code {
+        display: flex;
+        height: 20vh;
+        width: 20vw;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
 }
 
 //about
@@ -244,7 +254,10 @@ nav {
     }
 
    //Contact 
-   
+   .contact {
+       height: 90vh;
+   }
+
    .contact-header {
    width: 100vw;
    height: 20vh;
