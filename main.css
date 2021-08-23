@@ -74,11 +74,11 @@ body {
 }
 
 .home-background {
+  mix-blend-mode: darken;
   position: absolute;
   width: 728px;
   height: 516px;
   opacity: 0.7;
-  mix-blend-mode: darken;
   float: right;
   margin-right: 80px;
   left: 43%;
@@ -148,6 +148,25 @@ body {
   left: -75px;
   top: 60px;
   margin-left: 40px;
+}
+
+.about-image {
+  width: 706px;
+  height: 482px;
+  position: relative;
+  float: right;
+  mix-blend-mode: darken;
+  margin-right: 80px;
+}
+
+.about-image-hobbies {
+  width: 348px;
+  height: 252px;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 section {
@@ -251,7 +270,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 200px;
   background-image: url(./resources/colouring-textures.png);
   background-size: 260px 50px;
   background-position: center;
@@ -263,7 +282,7 @@ nav {
 .experience {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 40px;
+  margin-top: 80px;
   width: 100vw;
   height: 420px;
 }
@@ -303,12 +322,12 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   mix-blend-mode: darken;
-  backface-visibility: 0.8;
+  margin-top: 100px;
 }
 
 .projects-container {
   width: 100vw;
-  height: 60vh;
+  height: 30vh;
   display: flex;
   justify-content: space-evenly;
   margin-top: 80px;
@@ -331,4 +350,56 @@ nav {
 .projects-container .project2-img {
   width: 264px;
   height: 162px;
+}
+
+.about-header {
+  display: flex;
+  height: 20vw;
+  width: 100vw;
+  align-items: center;
+  background-image: url(./resources/colouring-textures.png);
+  background-size: 150px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  mix-blend-mode: darken;
+  margin-top: 80px;
+}
+.about-header .about-header-icon {
+  width: 46vw;
+  justify-content: flex-end;
+  display: flex;
+  margin-right: 20px;
+}
+.about-header .about-header-title {
+  width: 54vw;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.about-main {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+.about-main .about-main-text {
+  width: 40vw;
+  margin: 40px 80px;
+}
+.about-main .about-main-img {
+  width: 60vw;
+}
+
+.contact-header {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  background-image: url(./resources/colouring-textures.png);
+  background-size: 260px 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  mix-blend-mode: darken;
+  margin-top: 200px;
 }

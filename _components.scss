@@ -26,11 +26,11 @@
 }
 
 .home-background {
+    mix-blend-mode: darken;
     position: absolute;
     width: 728px;
     height: 516px;
     opacity: 0.7;
-    mix-blend-mode: darken;
     float: right;
     margin-right: 80px;
     left: 43%;
@@ -110,4 +110,17 @@
     top: 60px;
     margin-left: 40px;
 
+}
+
+//About
+
+.about-image {
+    width: 706px;
+    height: 482px;
+    position: relative;
+    float: right;
+    mix-blend-mode: darken;
+    margin-right: 80px;
+
+    
 }
