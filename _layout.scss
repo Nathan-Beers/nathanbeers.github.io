@@ -1,6 +1,6 @@
 section {
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
 }
 
 //Homepage layouts
@@ -16,6 +16,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    flex-shrink: 2;
 }
 
 .nav-links-container {
@@ -36,7 +37,7 @@ nav {
 .heading-container {
     display: flex;
     height: 80vh;
-    width: 30vh;
+    width: 40vw;
 }
 
 .nathan {
@@ -93,4 +94,99 @@ nav {
     background-size: 230px 50px;
     background-position: center;
     background-repeat: no-repeat;
+    mix-blend-mode: darken;
+}
+
+//Experience layout
+
+
+.heading-experience {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-image: url(./resources/colouring-textures.png);
+    background-size: 260px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    mix-blend-mode: darken;
+    backface-visibility: 0.8;
+}
+
+.experience {
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.experience-tech-container {
+    width: 348px;
+    height: 252px;
+    position: relative;
+    display: flex;
+    margin-left: 131px;
+    margin-top: 50px;
+}
+
+.tech-icons {
+    width: 348px;
+    height: 252px;
+    display: flex;
+    position: absolute;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+//Projects
+
+.header-projects {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-image: url(./resources/colouring-textures.png);
+    background-size: 260px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    mix-blend-mode: darken;
+    backface-visibility: 0.8;
+}
+
+.projects-container {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+
+    .project1-tech-container {
+        width: 10vw;
+        height: 162px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .project1-container,
+    .project2-container {
+        width: 40vw;
+        height: 100%;
+    }
+
+
+    .project1-img, 
+    .project2-img {
+        width: 264px;
+        height: 162px;
+    }
 }
