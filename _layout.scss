@@ -119,6 +119,8 @@ nav {
     display:flex;
     justify-content: space-evenly;
     margin-top: 40px;
+    width: 100vw;
+    height: 420px;
 }
 
 .experience-tech-container {
@@ -152,7 +154,7 @@ nav {
     height: 20vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 40px;
     background-image: url(./resources/colouring-textures.png);
     background-size: 260px 50px;
@@ -166,7 +168,10 @@ nav {
     width: 100vw;
     height: 60vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    min-width: 1000px;
+    
 
     .project1-tech-container {
         width: 10vw;
