@@ -159,14 +159,31 @@ body {
   margin-right: 80px;
 }
 
-.about-image-hobbies {
-  width: 348px;
-  height: 252px;
+.contact-text {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 40px;
+}
+
+.contact-image-container {
   display: flex;
-  position: fixed;
+  width: 100vw;
   justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+}
+
+.contact-image {
+  width: 848px;
+  height: 218px;
+  mix-blend-mode: darken;
+  transform: rotate(1.18deg);
+}
+
+.socials-container {
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
 }
 
 section {
@@ -384,6 +401,7 @@ nav {
 .about-main .about-main-text {
   width: 40vw;
   margin: 40px 80px;
+  min-width: 400px;
 }
 .about-main .about-main-img {
   width: 60vw;

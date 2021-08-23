@@ -124,3 +124,32 @@
 
     
 }
+
+//contact 
+.contact-text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 40px;
+}
+
+.contact-image-container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.contact-image {
+    width: 848px;
+    height: 218px;
+    mix-blend-mode: darken;
+    transform: rotate(1.18deg);
+    
+}
+
+.socials-container {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+}
