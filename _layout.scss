@@ -28,6 +28,10 @@ nav {
     margin: 0 60px;
 }
 
+#hamburger {
+    margin-right: 80px;
+}
+
 .heading {
     height: 80vh;
     width: 100vh;
@@ -84,7 +88,7 @@ nav {
 
 
 [class^="row"] {
-    padding: 50px;
+    padding: 65px;
     margin-bottom: 4px;
     min-height: 300px;
 }
@@ -92,9 +96,10 @@ nav {
 [class^="col"] {
     padding: 10px;
     min-height: 150px;
-    min-width: 10px;
+    min-width: 100px;
     
 }
+
 
 //Experience layout
 
@@ -115,27 +120,18 @@ nav {
 }
 
 .experience {
-    display:flex;
-    justify-content: space-evenly;
     margin-top: 80px;
     width: 100vw;
-    height: 420px;
+    height: 100vh;
+
 }
 
-.experience-tech-container {
-    width: 348px;
-    height: 252px;
-    position: relative;
-    display: flex;
-    margin-left: 131px;
-    margin-top: 50px;
-}
 
 .tech-icons {
     width: 348px;
     height: 252px;
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content:center;
     align-items: center;
     margin-top: 20px;

@@ -22,7 +22,7 @@
 .logo {
     width: 73px;
     height: 66px;
-    margin-left: 40px;
+    margin-left: 65px;
 }
 
 .home-background {
@@ -32,24 +32,20 @@
    
 }
 
+#hamburger:active {
+    opacity: 50%;
+}
+
+
 //Experience
 
-
-
-.experience-p {
-    position: relative;
-    width: 523px;
-    height: 274px;
-    float: right;
-    margin-top: 50px;
-    margin-right: 65px;
-    min-width: 400px;
-}   
 
 .tech-holder {
     width: 348px;
     height: 252px;
     mix-blend-mode: darken;
+    position: absolute;
+    
 }
 
 //projects 

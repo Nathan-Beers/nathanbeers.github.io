@@ -1,12 +1,8 @@
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 1033px) {
     #hamburger {
-        display: none;
+        display: none; 
     }
-
-    .home-background {
-        height:auto;
-        width: 100%;
-    }
+    
 }
 
 @media screen and (max-width: 1400px) {
@@ -16,10 +12,30 @@
     
 }
 
+@media screen and (max-width: 1440px) {
+    .home-background {
+        height:auto;
+        width: 100%;
+    }
+    
+}
+
+@media  screen and (max-width: 1033px) {
+    .nav-font {
+        display: none;
+    }
+}
+
+
+
 @media screen and (max-width: 1000px) {
     
     .about-main-img{
         max-width: 10%;
         height: auto;
+    }
+    .home-background {
+        height:auto;
+        width: 60%;
     }
 }

@@ -70,7 +70,7 @@ body {
 .logo {
   width: 73px;
   height: 66px;
-  margin-left: 40px;
+  margin-left: 65px;
 }
 
 .home-background {
@@ -79,20 +79,15 @@ body {
   height: 516px;
 }
 
-.experience-p {
-  position: relative;
-  width: 523px;
-  height: 274px;
-  float: right;
-  margin-top: 50px;
-  margin-right: 65px;
-  min-width: 400px;
+#hamburger:active {
+  opacity: 50%;
 }
 
 .tech-holder {
   width: 348px;
   height: 252px;
   mix-blend-mode: darken;
+  position: absolute;
 }
 
 .project1-img,
@@ -195,6 +190,10 @@ nav {
   margin: 0 60px;
 }
 
+#hamburger {
+  margin-right: 80px;
+}
+
 .heading {
   height: 80vh;
   width: 100vh;
@@ -249,7 +248,7 @@ nav {
 }
 
 [class^=row] {
-  padding: 50px;
+  padding: 65px;
   margin-bottom: 4px;
   min-height: 300px;
 }
@@ -257,7 +256,7 @@ nav {
 [class^=col] {
   padding: 10px;
   min-height: 150px;
-  min-width: 10px;
+  min-width: 100px;
 }
 
 .heading-experience {
@@ -276,27 +275,16 @@ nav {
 }
 
 .experience {
-  display: flex;
-  justify-content: space-evenly;
   margin-top: 80px;
   width: 100vw;
-  height: 420px;
-}
-
-.experience-tech-container {
-  width: 348px;
-  height: 252px;
-  position: relative;
-  display: flex;
-  margin-left: 131px;
-  margin-top: 50px;
+  height: 100vh;
 }
 
 .tech-icons {
   width: 348px;
   height: 252px;
   display: flex;
-  position: absolute;
+  position: relative;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
@@ -413,14 +401,9 @@ nav {
   margin-top: 200px;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 1033px) {
   #hamburger {
     display: none;
-  }
-
-  .home-background {
-    height: auto;
-    width: 100%;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -428,9 +411,25 @@ nav {
     display: none;
   }
 }
+@media screen and (max-width: 1440px) {
+  .home-background {
+    height: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1033px) {
+  .nav-font {
+    display: none;
+  }
+}
 @media screen and (max-width: 1000px) {
   .about-main-img {
     max-width: 10%;
     height: auto;
+  }
+
+  .home-background {
+    height: auto;
+    width: 60%;
   }
 }
