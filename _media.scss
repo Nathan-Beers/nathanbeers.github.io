@@ -2,4 +2,24 @@
     #hamburger {
         display: none;
     }
+
+    .home-background {
+        height:auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .top-page {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .about-main-img{
+        max-width: 10%;
+        height: auto;
+    }
 }

@@ -75,14 +75,8 @@ body {
 
 .home-background {
   mix-blend-mode: darken;
-  position: absolute;
   width: 728px;
   height: 516px;
-  opacity: 0.7;
-  float: right;
-  margin-right: 80px;
-  left: 43%;
-  top: 184px;
 }
 
 .experience-p {
@@ -189,7 +183,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  flex-shrink: 2;
+  flex-shrink: 1;
 }
 
 .nav-links-container {
@@ -209,15 +203,12 @@ nav {
 .heading-container {
   display: flex;
   height: 80vh;
-  width: 40vw;
+  width: 100vw;
 }
 
 .nathan {
-  position: absolute;
   width: 396px;
   height: 126px;
-  left: 50px;
-  top: 222px;
   font-weight: 300;
   font-style: italic;
   font-family: "Raleway", sans-serif;
@@ -228,36 +219,24 @@ nav {
 }
 
 .junior {
-  position: absolute;
-  top: 330px;
-  left: 50px;
   font-weight: 600;
   font-size: 24px;
   font-family: "Raleway", sans-serif;
 }
 
 .web {
-  position: absolute;
-  top: 360px;
-  left: 50px;
   font-weight: 200;
   font-size: 48px;
   font-family: "Raleway", sans-serif;
 }
 
 .developer {
-  position: absolute;
-  top: 372px;
-  left: 175px;
   font-weight: 600;
   font-size: 48px;
   font-family: "Raleway", sans-serif;
 }
 
 .illustrator {
-  position: absolute;
-  top: 442px;
-  left: 175px;
   font-weight: 600;
   font-size: 48px;
   font-style: italic;
@@ -267,6 +246,18 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   mix-blend-mode: darken;
+}
+
+[class^=row] {
+  padding: 50px;
+  margin-bottom: 4px;
+  min-height: 300px;
+}
+
+[class^=col] {
+  padding: 10px;
+  min-height: 150px;
+  min-width: 10px;
 }
 
 .heading-experience {
@@ -425,5 +416,21 @@ nav {
 @media screen and (min-width: 425px) {
   #hamburger {
     display: none;
+  }
+
+  .home-background {
+    height: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .top-page {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .about-main-img {
+    max-width: 10%;
+    height: auto;
   }
 }
