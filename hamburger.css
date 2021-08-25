@@ -17,6 +17,10 @@ body {
     font-size: 36px;
 }
 
+a:active {
+    opacity: 50%;
+}
+
 
 /* nav bar */
 
