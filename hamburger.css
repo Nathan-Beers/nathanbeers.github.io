@@ -28,6 +28,7 @@ a:active {
     height: 66px;
     width: 73px;
     margin-left: 20px;
+    mix-blend-mode: darken;
 }
 
 #hamburger {
@@ -67,4 +68,5 @@ a:active {
 .snail-image {
     height: 148px;
     width: 199px;
+    mix-blend-mode: darken;
 }
