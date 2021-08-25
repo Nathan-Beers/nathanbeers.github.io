@@ -1,3 +1,66 @@
+/* general stylings */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(./resources/page-background-texture.png);
+}
+
+.nav-font {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color:#313131;
+    font-size: 36px;
+}
+
+
+/* nav bar */
+
+.logo {
+    height: 66px;
+    width: 73px;
+    margin-left: 20px;
+}
+
+#hamburger {
+    color: #313131;
+    margin-right: 20px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    width: 100vw;
+}
+
+/* links */
+
+.page-links-container {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* img */
+
+.snail-image-container {
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.snail-image {
+    height: 148px;
+    width: 199px;
 }
