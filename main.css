@@ -77,6 +77,8 @@ body {
   mix-blend-mode: darken;
   width: 728px;
   height: 516px;
+  position: relative;
+  min-width: 300px;
 }
 
 #hamburger:active {
@@ -191,23 +193,20 @@ nav {
 }
 
 #hamburger {
-  margin-right: 80px;
+  margin: 0 40px;
 }
 
 .heading {
   height: 80vh;
-  width: 100vh;
+  width: 100%;
 }
 
 .heading-container {
-  display: flex;
   height: 80vh;
   width: 100vw;
 }
 
 .nathan {
-  width: 396px;
-  height: 126px;
   font-weight: 300;
   font-style: italic;
   font-family: "Raleway", sans-serif;
@@ -257,6 +256,10 @@ nav {
   padding: 10px;
   min-height: 150px;
   min-width: 100px;
+}
+
+.home-background-container {
+  width: 100%;
 }
 
 .heading-experience {
@@ -422,7 +425,11 @@ nav {
     display: none;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 990px) {
+  .nav-links-container {
+    left: 50%;
+  }
+
   .about-main-img {
     max-width: 10%;
     height: auto;
@@ -431,5 +438,23 @@ nav {
   .home-background {
     height: auto;
     width: 60%;
+  }
+
+  #home-background-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  #heading-text {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .nathan,
+.junior,
+.web,
+.developer,
+.illustrator {
+    font-size: large;
   }
 }

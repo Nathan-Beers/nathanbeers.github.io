@@ -29,24 +29,22 @@ nav {
 }
 
 #hamburger {
-    margin-right: 80px;
+   margin: 0 40px;
 }
 
 .heading {
     height: 80vh;
-    width: 100vh;
+    width: 100%;
 }
 
 
 .heading-container {
-    display: flex;
     height: 80vh;
     width: 100vw;
 }
 
+
 .nathan {
-    width: 396px;
-    height: 126px;
     font-weight: 300;
     font-style: italic;
     font-family: "Raleway", sans-serif;
@@ -98,6 +96,10 @@ nav {
     min-height: 150px;
     min-width: 100px;
     
+}
+
+.home-background-container {
+    width: 100%;
 }
 
 

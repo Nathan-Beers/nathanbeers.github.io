@@ -28,7 +28,11 @@
 
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 990px) {
+
+    .nav-links-container {
+        left: 50%;
+    }
     
     .about-main-img{
         max-width: 10%;
@@ -38,4 +42,24 @@
         height:auto;
         width: 60%;
     }
+
+    #home-background-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #heading-text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+     .nathan,
+     .junior,
+     .web,
+     .developer,
+     .illustrator{
+        font-size: large;
+    }
+    
 }

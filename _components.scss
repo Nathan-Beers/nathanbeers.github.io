@@ -29,7 +29,8 @@
     mix-blend-mode: darken;
     width: 728px;
     height: 516px;
-   
+    position: relative;
+    min-width: 300px;
 }
 
 #hamburger:active {
