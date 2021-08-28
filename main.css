@@ -241,9 +241,9 @@ nav {
   font-family: "Raleway", sans-serif;
   background-image: url(./resources/colouring-textures.png);
   background-size: 230px 50px;
+  background-blend-mode: darken;
   background-position: center;
   background-repeat: no-repeat;
-  mix-blend-mode: darken;
 }
 
 [class^=row] {
@@ -273,7 +273,7 @@ nav {
   background-size: 260px 50px;
   background-position: center;
   background-repeat: no-repeat;
-  mix-blend-mode: darken;
+  background-blend-mode: darken;
   backface-visibility: 0.8;
 }
 
@@ -308,7 +308,7 @@ nav {
   background-size: 260px 50px;
   background-position: center;
   background-repeat: no-repeat;
-  mix-blend-mode: darken;
+  background-blend-mode: darken;
   margin-top: 100px;
 }
 
@@ -356,7 +356,7 @@ nav {
   background-size: 150px 50px;
   background-position: center;
   background-repeat: no-repeat;
-  mix-blend-mode: darken;
+  background-blend-mode: darken;
   margin-top: 80px;
 }
 .about-header .about-header-icon {
@@ -400,7 +400,7 @@ nav {
   background-size: 260px 50px;
   background-position: center;
   background-repeat: no-repeat;
-  mix-blend-mode: darken;
+  background-blend-mode: darken;
   margin-top: 200px;
 }
 
@@ -425,7 +425,7 @@ nav {
     display: none;
   }
 }
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 991px) {
   .nav-links-container {
     left: 50%;
   }
@@ -456,5 +456,38 @@ nav {
 .developer,
 .illustrator {
     font-size: x-large;
+  }
+
+  .illustrator {
+    background-size: 100px 25px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #tech-holder-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .experience-p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 370px) {
+  .tech-holder {
+    height: auto;
+    width: 100%;
+  }
+
+  .tech-icons {
+    height: 150px;
+  }
+  .tech-icons img {
+    height: 15%;
+    width: 15%;
   }
 }
