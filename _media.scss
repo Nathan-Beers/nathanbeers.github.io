@@ -97,3 +97,47 @@
     }
     }
 }
+
+@media screen and (min-width: 873px) {
+    .project-caption-container {
+        display: none!important;
+    }
+}
+
+@media screen and (max-width: 872px) {
+    .project1-tech-container {
+        display: flex!important;
+        flex-direction: row!important;
+        width: 100vw!important;
+        justify-content: center!important;
+        gap: 20px!important;
+    }
+
+    .projects-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .project2-code,
+    .project2-container,
+    .project1-code,
+    .project1-container,
+    .project-caption-container {
+        display: flex!important;
+        flex-direction: row!important;
+        width: 100vw!important;
+        justify-content: center!important;
+        align-items: center!important;
+    }
+
+    .project1-code {
+        margin-bottom: 40px;
+    }
+
+    .project-caption {
+        display: none;
+    }
+}
