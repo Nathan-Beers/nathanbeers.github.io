@@ -4,3 +4,6 @@ My portfolio project created using HTML, CSS, Sass, and bootstrap. Showcasing al
 Developed to fully responsive for mobile devices, tablets, and desktops.
 
 This site was prototyped using figma, prototype available here: https://www.figma.com/file/ZS7bzum4P2yvt5L5GE1aoz/Web-portfolio?node-id=0%3A1
+
+This site is live via Git Pages here: 
+https://nathan-beers.github.io/nathanbeers.github.io/

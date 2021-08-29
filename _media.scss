@@ -1,4 +1,4 @@
-@media screen and (min-width: 1033px) {
+@media screen and (min-width: 768px) {
     #hamburger {
         display: none; 
     }
@@ -20,7 +20,16 @@
     
 }
 
-@media  screen and (max-width: 1033px) {
+@media screen and (max-width: 1035px) {
+    .nav-font {
+        font-size: auto;
+        margin: 0 20px;
+    }
+
+    
+}
+
+@media  screen and (max-width: 769px) {
     .nav-font {
         display: none;
     }
@@ -49,7 +58,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 451px) {
      .nathan,
      .junior,
      .web,
@@ -61,14 +70,19 @@
     .illustrator {
         background-size: 100px 25px;
     }
-    
-    p {
-        font-size: 16px;
-    }
+
     
 }
 
+@media screen and (min-width: 991px){
+    #projects {
+        margin-top: 0;
+    }
 
+    .experience {
+        height: 80vh;
+    }
+}
 
 
 @media screen and (max-width: 991px){
@@ -83,19 +97,26 @@
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 320px) {
     .tech-holder {
-        height: auto;
-        width: 100%;
+        display: none;
     }
-    .tech-icons {
-        height: 150px;
 
-    img {
-        height: 15%;
-        width: 15%;
+    .row {
+        padding-top: 0;
+        padding-bottom: 0;
     }
+
+    .tech-icons {
+        height: 100px;
+        
+        img {
+        height: 150px;
+        padding: 0 5px;
+        filter: brightness(0%);
+    
     }
+}
 }
 
 @media screen and (min-width: 873px) {
@@ -171,11 +192,24 @@
     display: none;
 }
 
+.contact-header {
+    margin-top: 10px;
 }
 
-@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 769px) {
     .contact-image2 {
         display: none;
+    }
+    
+}
+
+@media screen and (max-width: 564px) {
+    .experience-text,
+    .about-text,
+    .contact-text {
+        font-size: 16px;
     }
     
 }

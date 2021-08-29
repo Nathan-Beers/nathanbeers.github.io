@@ -1,8 +1,3 @@
-section {
-    height: 100vh;
-    width: 100vw;
-}
-
 //Homepage layouts
 
 nav {
@@ -41,47 +36,6 @@ nav {
 .heading-container {
     height: 80vh;
     width: 100vw;
-}
-
-
-.nathan {
-    font-weight: 300;
-    font-style: italic;
-    font-family: "Raleway", sans-serif;
-}
-
-.nathan::first-letter {
-    font-size: 72px;
-  }
-
-.junior {
-    font-weight: 600;
-    font-size: 24px;
-    font-family: "Raleway", sans-serif;
-}
-
-.web {
-    font-weight: 200;
-    font-size: 48px;
-    font-family: "Raleway", sans-serif;
-}
-
-.developer {
-    font-weight: 600;
-    font-size: 48px;
-    font-family: "Raleway", sans-serif;
-}
-
-.illustrator {
-    font-weight: 600;
-    font-size: 48px;
-    font-style: italic;
-    font-family: "Raleway", sans-serif;
-    background-image: url(./resources/colouring-textures.png);
-    background-size: 230px 50px;
-    background-blend-mode: darken;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 
@@ -128,7 +82,6 @@ nav {
 
 }
 
-
 .tech-icons {
     width: 348px;
     height: 252px;
@@ -158,7 +111,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .project-caption-container {
@@ -209,26 +162,19 @@ nav {
         display: flex;
         height: 20vw;
         width: 100vw;
+        justify-content: center;
         align-items: center;
         background-image: url(./resources/colouring-textures.png);
         background-size: 150px 50px;
         background-position: center;
         background-repeat: no-repeat;
         background-blend-mode: darken;
-        margin-top: 80px;
+        margin: 40px auto;
 
         .about-header-icon {
-            width: 46vw;
-            justify-content: flex-end;
-            display: flex;
-            margin-right: 20px;
+            margin: 0 10px;
         }
 
-        .about-header-title {
-            width: 54vw;
-            justify-content: flex-start;
-            display: flex;
-        }
         
     }
 

@@ -38,6 +38,45 @@
     opacity: 50%;
 }
 
+.nathan {
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Raleway", sans-serif;
+}
+
+.nathan::first-letter {
+    font-size: 72px;
+  }
+
+.junior {
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+}
+
+.web {
+    font-weight: 200;
+    font-size: 48px;
+    font-family: "Raleway", sans-serif;
+}
+
+.developer {
+    font-weight: 600;
+    font-size: 48px;
+    font-family: "Raleway", sans-serif;
+}
+
+.illustrator {
+    font-weight: 600;
+    font-size: 48px;
+    font-style: italic;
+    font-family: "Raleway", sans-serif;
+    background-image: url(./resources/colouring-textures.png);
+    background-size: 230px 50px;
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 //Experience
 
@@ -48,6 +87,10 @@
     mix-blend-mode: darken;
     position: absolute;
 
+}
+
+.experience-p {
+    margin-bottom: 80px;
 }
 
 //projects 
@@ -106,6 +149,7 @@
     margin-right: 80px;
 }
 
+
 //contact 
 .contact-text {
     text-align: center;
@@ -130,8 +174,8 @@
 }
 
 .contact-image2 {
-    height: 218px;
-    width: 300px;
+    height: 109px;
+    width: 150px;
 }
 
 .socials-container {
