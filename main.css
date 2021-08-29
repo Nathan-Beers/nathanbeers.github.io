@@ -8,13 +8,13 @@ p {
 .nav-font {
   font-family: "Raleway", sans-serif;
   font-weight: 100;
-  font-size: 36px;
+  font-size: 24px;
   color: #313131;
 }
 
 .headers-font {
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 48px;
 }
 
@@ -38,12 +38,12 @@ a, a:hover, a:visited {
 
 a.nav-font:hover {
   background-image: url(./resources/colouring-textures.png);
-  background-size: 150px 50px;
+  background-size: 90px 50px;
   background-repeat: no-repeat;
   justify-content: center;
   background-position: center;
-  mix-blend-mode: darken;
-  opacity: 0.7;
+  background-blend-mode: darken;
+  opacity: 50%;
   animation: ease-in-out;
 }
 
@@ -71,6 +71,7 @@ body {
   width: 73px;
   height: 66px;
   margin-left: 65px;
+  mix-blend-mode: darken;
 }
 
 .home-background {
@@ -131,10 +132,8 @@ body {
 }
 
 .about-image {
-  width: 706px;
-  height: 482px;
-  position: relative;
-  float: right;
+  width: 564px;
+  height: 385px;
   mix-blend-mode: darken;
   margin-right: 80px;
 }
@@ -158,6 +157,11 @@ body {
   height: 218px;
   mix-blend-mode: darken;
   transform: rotate(1.18deg);
+}
+
+.contact-image2 {
+  height: 218px;
+  width: 300px;
 }
 
 .socials-container {
@@ -189,7 +193,7 @@ nav {
 }
 
 .nav-font {
-  padding: 20px;
+  padding: 6px;
   margin: 0 60px;
 }
 
@@ -373,16 +377,16 @@ nav {
 
 .about-main {
   display: flex;
-  width: 100vw;
   justify-content: space-between;
+  width: 100vw;
 }
 .about-main .about-main-text {
-  width: 40vw;
-  margin: 40px 80px;
-  min-width: 400px;
+  display: flex;
+  margin: 40px 65px;
 }
-.about-main .about-main-img {
-  width: 60vw;
+
+.about-main-img {
+  margin-bottom: 40px;
 }
 
 .contact {
@@ -428,11 +432,6 @@ nav {
 @media screen and (max-width: 991px) {
   .nav-links-container {
     left: 50%;
-  }
-
-  .about-main-img {
-    max-width: 10%;
-    height: auto;
   }
 
   .home-background {
@@ -530,6 +529,36 @@ nav {
   }
 
   .project-caption {
+    display: none;
+  }
+}
+@media screen and (max-width: 1208px) {
+  .about-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-main-text {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-main-img {
+    display: none;
+  }
+
+  .about {
+    height: 80vh;
+  }
+
+  .contact-image {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact-image2 {
     display: none;
   }
 }

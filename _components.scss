@@ -23,6 +23,7 @@
     width: 73px;
     height: 66px;
     margin-left: 65px;
+    mix-blend-mode: darken;
 }
 
 .home-background {
@@ -99,14 +100,10 @@
 //About
 
 .about-image {
-    width: 706px;
-    height: 482px;
-    position: relative;
-    float: right;
+    width: 564px;
+    height: 385px;
     mix-blend-mode: darken;
     margin-right: 80px;
-
-    
 }
 
 //contact 
@@ -130,6 +127,11 @@
     mix-blend-mode: darken;
     transform: rotate(1.18deg);
     
+}
+
+.contact-image2 {
+    height: 218px;
+    width: 300px;
 }
 
 .socials-container {

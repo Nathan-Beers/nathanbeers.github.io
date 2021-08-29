@@ -14,13 +14,13 @@ p {
 .nav-font {
     font-family: "Raleway", sans-serif;
     font-weight: 100;
-    font-size: 36px;
+    font-size: 24px;
     color: $color-primary;
 }
 
 .headers-font {
     font-family: "Raleway", sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 48px;
 }
 
@@ -48,12 +48,12 @@ a, a:hover, a:visited{
     
 a.nav-font:hover {
     background-image: url(./resources/colouring-textures.png);
-    background-size: 150px 50px;
+    background-size: 90px 50px;
     background-repeat: no-repeat;
     justify-content: center;
     background-position: center;
-    mix-blend-mode: darken;
-    opacity: 0.7;
+    background-blend-mode: darken;
+    opacity: 50%;
     animation: ease-in-out;
 }
 

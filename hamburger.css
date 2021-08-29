@@ -27,13 +27,13 @@ a:active {
 .logo {
     height: 66px;
     width: 73px;
-    margin-left: 20px;
+    margin-left: 65px;
     mix-blend-mode: darken;
 }
 
 #hamburger {
     color: #313131;
-    margin-right: 20px;
+    margin: 0 40px;
 }
 
 .nav-container {

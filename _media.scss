@@ -34,10 +34,6 @@
         left: 50%;
     }
     
-    .about-main-img{
-        max-width: 10%;
-        height: auto;
-    }
     .home-background {
         height:auto;
         width: 60%;
@@ -69,7 +65,11 @@
     p {
         font-size: 16px;
     }
+    
 }
+
+
+
 
 @media screen and (max-width: 991px){
     #tech-holder-container {
@@ -140,4 +140,42 @@
     .project-caption {
         display: none;
     }
+}
+
+@media screen and (max-width: 1208px) {
+
+    .about-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-main-text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+.about-main-img {
+    display: none;
+}
+
+
+.about {
+    height: 80vh;
+}
+
+.contact-image {
+    display: none;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+    .contact-image2 {
+        display: none;
+    }
+    
 }

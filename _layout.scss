@@ -24,7 +24,7 @@ nav {
 }
 
 .nav-font {
-    padding: 20px;
+    padding: 6px;
     margin: 0 60px;
 }
 
@@ -234,21 +234,20 @@ nav {
 
     .about-main {
         display: flex;
-        width: 100vw;
         justify-content: space-between;
+        width: 100vw;
 
         .about-main-text {
-            width: 40vw;
-            margin: 40px 80px;
-            min-width: 400px;
-
+            display: flex;
+            margin: 40px 65px;
         }
-
-        .about-main-img {
-            width: 60vw;
-           
-        }
+    
     }
+
+    .about-main-img {
+        margin-bottom: 40px;
+    }
+   
 
    //Contact 
    .contact {
