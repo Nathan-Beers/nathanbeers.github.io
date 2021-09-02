@@ -17,6 +17,10 @@ body {
     font-size: 36px;
 }
 
+a:hover {
+    color:blue;
+}
+
 a:active {
     opacity: 50%;
 }
@@ -34,6 +38,14 @@ a:active {
 #hamburger {
     color: #313131;
     margin: 0 40px;
+}
+
+#hamburger:hover {
+    opacity: 50%;
+}
+
+#hamburger:active {
+    color: blue;
 }
 
 .nav-container {

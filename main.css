@@ -43,8 +43,11 @@ a.nav-font:hover {
   justify-content: center;
   background-position: center;
   background-blend-mode: darken;
-  opacity: 50%;
   animation: ease-in-out;
+}
+
+a.nav-font:active {
+  opacity: 50%;
 }
 
 body {
@@ -82,8 +85,12 @@ body {
   min-width: 300px;
 }
 
-#hamburger:active {
+#hamburger:hover {
   opacity: 50%;
+}
+
+#hamburger:active {
+  color: blue;
 }
 
 .nathan {
@@ -155,9 +162,17 @@ body {
   text-align: center;
 }
 
+#html:hover {
+  background-color: orange;
+}
+
 #css {
   width: 40px;
   text-align: center;
+}
+
+#css:hover {
+  background-color: lightskyblue;
 }
 
 #sass {
@@ -165,9 +180,17 @@ body {
   text-align: center;
 }
 
+#sass:hover {
+  background-color: hotpink;
+}
+
 #bootstrap {
   width: 60px;
   text-align: center;
+}
+
+#bootstrap:hover {
+  background-color: #8a6ca8;
 }
 
 .project-caption {
@@ -175,11 +198,27 @@ body {
   text-align: center;
 }
 
+.fa-code:hover {
+  opacity: 50%;
+}
+
+.fa-code:active {
+  color: blue;
+}
+
 .about-image {
   width: 564px;
   height: 385px;
   mix-blend-mode: darken;
   margin-right: 80px;
+}
+
+.fa-instagram:hover {
+  opacity: 50%;
+}
+
+.fa-instagram:active {
+  color: blue;
 }
 
 .contact-text {
@@ -212,6 +251,18 @@ body {
   display: flex;
   width: 100vw;
   justify-content: space-evenly;
+}
+
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-envelope:hover {
+  opacity: 50%;
+}
+
+.fa-github:active,
+.fa-linkedin:active,
+.fa-envelope:active {
+  color: blue;
 }
 
 nav {

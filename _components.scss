@@ -34,8 +34,12 @@
     min-width: 300px;
 }
 
-#hamburger:active {
+#hamburger:hover {
     opacity: 50%;
+}
+
+#hamburger:active {
+    color: blue;
 }
 
 .nathan {
@@ -114,7 +118,11 @@
 
 #html {
     width: 50px;
-    text-align: center;
+    text-align: center;   
+}
+
+#html:hover {
+    background-color: orange;
 }
 
 #css {
@@ -122,9 +130,17 @@
     text-align: center;
 }
 
+#css:hover {
+    background-color: lightskyblue;
+}
+
 #sass {
     width: 40px;
     text-align: center;
+}
+
+#sass:hover {
+    background-color: hotpink;
 }
 
 #bootstrap {
@@ -132,12 +148,23 @@
     text-align: center;
 }
 
+#bootstrap:hover {
+    background-color:rgb(138, 108, 168);
+    
+}
+
 .project-caption {
     padding: 0 70px;
     text-align: center;
 }
 
+.fa-code:hover {
+    opacity: 50%;
+}
 
+.fa-code:active {
+    color: blue;
+}
     
 
 //About
@@ -149,6 +176,13 @@
     margin-right: 80px;
 }
 
+.fa-instagram:hover {
+    opacity: 50%;
+}
+
+.fa-instagram:active {
+    color: blue;
+} 
 
 //contact 
 .contact-text {
@@ -182,4 +216,16 @@
     display: flex;
     width: 100vw;
     justify-content: space-evenly;
+}
+
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-envelope:hover {
+    opacity: 50%;
+}
+
+.fa-github:active,
+.fa-linkedin:active,
+.fa-envelope:active {
+    color: blue;
 }

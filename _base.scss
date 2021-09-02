@@ -53,8 +53,11 @@ a.nav-font:hover {
     justify-content: center;
     background-position: center;
     background-blend-mode: darken;
-    opacity: 50%;
     animation: ease-in-out;
+}
+
+a.nav-font:active {
+    opacity: 50%;
 }
 
 
