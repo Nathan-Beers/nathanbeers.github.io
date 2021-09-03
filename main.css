@@ -29,6 +29,7 @@ p {
   margin: 0;
   box-sizing: border-box;
   color: #313131;
+  font-family: "Raleway", sans-serif;
 }
 
 a, a:hover, a:visited {
@@ -93,35 +94,30 @@ body {
   color: blue;
 }
 
-.nathan {
+#heading-text .nathan {
   font-weight: 300;
   font-style: italic;
   font-family: "Raleway", sans-serif;
 }
-
-.nathan::first-letter {
+#heading-text .nathan::first-letter {
   font-size: 72px;
 }
-
-.junior {
+#heading-text .junior {
   font-weight: 600;
   font-size: 24px;
   font-family: "Raleway", sans-serif;
 }
-
-.web {
+#heading-text .web {
   font-weight: 200;
   font-size: 48px;
   font-family: "Raleway", sans-serif;
 }
-
-.developer {
+#heading-text .developer {
   font-weight: 600;
   font-size: 48px;
   font-family: "Raleway", sans-serif;
 }
-
-.illustrator {
+#heading-text .illustrator {
   font-weight: 600;
   font-size: 48px;
   font-style: italic;
@@ -234,15 +230,13 @@ body {
   width: 100vw;
   justify-content: center;
 }
-
-.contact-image {
+.contact-image-container .contact-image {
   width: 848px;
   height: 218px;
   mix-blend-mode: darken;
   transform: rotate(1.18deg);
 }
-
-.contact-image2 {
+.contact-image-container .contact-image2 {
   height: 109px;
   width: 150px;
 }
@@ -252,16 +246,14 @@ body {
   width: 100vw;
   justify-content: space-evenly;
 }
-
-.fa-github:hover,
-.fa-linkedin:hover,
-.fa-envelope:hover {
+.socials-container .fa-github:hover,
+.socials-container .fa-linkedin:hover,
+.socials-container .fa-envelope:hover {
   opacity: 50%;
 }
-
-.fa-github:active,
-.fa-linkedin:active,
-.fa-envelope:active {
+.socials-container .fa-github:active,
+.socials-container .fa-linkedin:active,
+.socials-container .fa-envelope:active {
   color: blue;
 }
 
@@ -435,8 +427,7 @@ nav {
 .contact {
   height: 90vh;
 }
-
-.contact-header {
+.contact .contact-header {
   width: 100vw;
   height: 20vh;
   display: flex;
@@ -448,7 +439,7 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: darken;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 451px) {
@@ -489,6 +480,10 @@ nav {
 .contact-text {
     font-size: 16px;
   }
+
+  .contact-header {
+    margin-top: 0;
+  }
 }
 @media screen and (min-width: 768px) {
   #hamburger {
@@ -503,6 +498,23 @@ nav {
 @media screen and (min-width: 769px) {
   .contact-image2 {
     display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-main-img {
+    display: none;
+  }
+
+  .about {
+    height: 80vh;
+  }
+
+  .contact-image {
+    display: none;
+  }
+
+  .contact-header {
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -613,22 +625,5 @@ nav {
 
   .about-main-text {
     text-align: center;
-  }
-}
-@media screen and (max-width: 768px) {
-  .about-main-img {
-    display: none;
-  }
-
-  .about {
-    height: 80vh;
-  }
-
-  .contact-image {
-    display: none;
-  }
-
-  .contact-header {
-    margin-top: 10px;
   }
 }

@@ -158,59 +158,60 @@ nav {
 
 //about
    
-    .about-header {
-        display: flex;
-        height: 20vw;
-        width: 100vw;
-        justify-content: center;
-        align-items: center;
-        background-image: url(./resources/colouring-textures.png);
-        background-size: 150px 50px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-blend-mode: darken;
-        margin: 40px auto;
+.about-header {
+    display: flex;
+    height: 20vw;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./resources/colouring-textures.png);
+    background-size: 150px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    margin: 40px auto;
 
         .about-header-icon {
             margin: 0 10px;
         }
 
         
-    }
+}
 
-    .about-main {
-        display: flex;
-        justify-content: space-between;
-        width: 100vw;
+.about-main {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
 
         .about-main-text {
             display: flex;
             margin: 40px 65px;
         }
     
-    }
+}
 
-    .about-main-img {
-        margin-bottom: 40px;
-    }
+.about-main-img {
+    margin-bottom: 40px;
+}
    
 
-   //Contact 
-   .contact {
-       height: 90vh;
-   }
+//Contact 
+.contact {
+    height: 90vh;
+   
 
-   .contact-header {
-   width: 100vw;
-   height: 20vh;
-   display: flex;
-   justify-content: center;
-   align-items: flex-start;
-   padding: 40px;
-   background-image: url(./resources/colouring-textures.png);
-   background-size: 260px 50px;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-blend-mode: darken;
-   margin-top: 200px;
+        .contact-header {
+            width: 100vw;
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px;
+            background-image: url(./resources/colouring-textures.png);
+            background-size: 260px 50px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-blend-mode: darken;
+            margin-top: 50px;
+        }
 }

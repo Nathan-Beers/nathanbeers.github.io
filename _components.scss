@@ -42,45 +42,50 @@
     color: blue;
 }
 
-.nathan {
-    font-weight: 300;
-    font-style: italic;
-    font-family: "Raleway", sans-serif;
+#heading-text {
+
+    .nathan {
+        font-weight: 300;
+        font-style: italic;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    .nathan::first-letter {
+        font-size: 72px;
+      }
+    
+    .junior {
+        font-weight: 600;
+        font-size: 24px;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    .web {
+        font-weight: 200;
+        font-size: 48px;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    .developer {
+        font-weight: 600;
+        font-size: 48px;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    .illustrator {
+        font-weight: 600;
+        font-size: 48px;
+        font-style: italic;
+        font-family: "Raleway", sans-serif;
+        background-image: url(./resources/colouring-textures.png);
+        background-size: 230px 50px;
+        background-blend-mode: darken;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
 
-.nathan::first-letter {
-    font-size: 72px;
-  }
 
-.junior {
-    font-weight: 600;
-    font-size: 24px;
-    font-family: "Raleway", sans-serif;
-}
-
-.web {
-    font-weight: 200;
-    font-size: 48px;
-    font-family: "Raleway", sans-serif;
-}
-
-.developer {
-    font-weight: 600;
-    font-size: 48px;
-    font-family: "Raleway", sans-serif;
-}
-
-.illustrator {
-    font-weight: 600;
-    font-size: 48px;
-    font-style: italic;
-    font-family: "Raleway", sans-serif;
-    background-image: url(./resources/colouring-textures.png);
-    background-size: 230px 50px;
-    background-blend-mode: darken;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 //Experience
 
@@ -98,10 +103,6 @@
 }
 
 //projects 
-
-
-
-
 
 .project1-img, 
 .project2-img  {
@@ -197,35 +198,38 @@
     display: flex;
     width: 100vw;
     justify-content: center;
-}
 
-.contact-image {
-    width: 848px;
-    height: 218px;
-    mix-blend-mode: darken;
-    transform: rotate(1.18deg);
+    .contact-image {
+        width: 848px;
+        height: 218px;
+        mix-blend-mode: darken;
+        transform: rotate(1.18deg);
+        
+    }
     
+    .contact-image2 {
+        height: 109px;
+        width: 150px;
+    }
 }
 
-.contact-image2 {
-    height: 109px;
-    width: 150px;
-}
+
 
 .socials-container {
     display: flex;
     width: 100vw;
     justify-content: space-evenly;
+
+    .fa-github:hover,
+    .fa-linkedin:hover,
+    .fa-envelope:hover {
+        opacity: 50%;
+    }
+    
+    .fa-github:active,
+    .fa-linkedin:active,
+    .fa-envelope:active {
+        color: blue;
+    }
 }
 
-.fa-github:hover,
-.fa-linkedin:hover,
-.fa-envelope:hover {
-    opacity: 50%;
-}
-
-.fa-github:active,
-.fa-linkedin:active,
-.fa-envelope:active {
-    color: blue;
-}
