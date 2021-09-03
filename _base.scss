@@ -1,34 +1,7 @@
-//Fonts and colour styles
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,600;1,200;1,600&display=swap');
+//colour styles
 
 $color-primary: #313131;
 $color-secondary: #ffffff;
-
-p {
-    font-family: "Raleway", sans-serif;
-    font-weight: 200;
-    font-size: 24px;
-}
-
-.nav-font {
-    font-family: "Raleway", sans-serif;
-    font-weight: 100;
-    font-size: 24px;
-    color: $color-primary;
-}
-
-.headers-font {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 48px;
-}
-
-.hamburger-font {
-    font-family: "Raleway", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-}
 
 
 //General styling & links

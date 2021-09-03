@@ -1,29 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,600;1,200;1,600&display=swap");
-p {
-  font-family: "Raleway", sans-serif;
-  font-weight: 200;
-  font-size: 24px;
-}
-
-.nav-font {
-  font-family: "Raleway", sans-serif;
-  font-weight: 100;
-  font-size: 24px;
-  color: #313131;
-}
-
-.headers-font {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 48px;
-}
-
-.hamburger-font {
-  font-family: "Raleway", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -626,4 +601,28 @@ nav {
   .about-main-text {
     text-align: center;
   }
+}
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.nav-font {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  color: #313131;
+}
+
+.headers-font {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.hamburger-font {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-style: italic;
 }
