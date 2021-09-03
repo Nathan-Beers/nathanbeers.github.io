@@ -70,6 +70,28 @@
 }
 
 
+@media screen and (max-width: 768px) {
+    
+    .about-main-img {
+        display: none;
+    }
+    
+    
+    .about {
+        height: 80vh;
+    }
+    
+    .contact-image {
+        display: none;
+    }
+    
+    .contact-header {
+        margin-top: 10px;
+    }
+    
+    }
+
+
 //laptop & desktop queries
 
 
@@ -202,25 +224,4 @@
     .about-main-text {
         text-align: center;
     }
-}
-
-@media screen and (max-width: 768px) {
-    
-.about-main-img {
-    display: none;
-}
-
-
-.about {
-    height: 80vh;
-}
-
-.contact-image {
-    display: none;
-}
-
-.contact-header {
-    margin-top: 10px;
-}
-
 }
