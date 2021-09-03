@@ -1,9 +1,77 @@
+//mobile queries
+
+@media screen and (max-width: 451px) {
+    .nathan,
+    .junior,
+    .web,
+    .developer,
+    .illustrator{
+       font-size:x-large;
+   }
+
+   .illustrator {
+       background-size: 100px 25px;
+   }
+
+   
+}
+
+@media screen and (max-width: 320px) {
+    .tech-holder {
+        display: none;
+    }
+
+    .row {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .tech-icons {
+        height: 100px;
+        
+        img {
+        height: 150px;
+        padding: 0 5px;
+        filter: brightness(0%);
+    
+    }
+}
+}
+
+@media screen and (max-width: 564px) {
+    .experience-text,
+    .about-text,
+    .contact-text {
+        font-size: 16px;
+    }
+    
+}
+
+//tablet queries
+
 @media screen and (min-width: 768px) {
     #hamburger {
         display: none; 
     }
     
 }
+
+@media  screen and (max-width: 769px) {
+    .nav-font {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .contact-image2 {
+        display: none;
+    }
+    
+}
+
+
+//laptop & desktop queries
+
 
 @media screen and (max-width: 1400px) {
     .top-page {
@@ -29,13 +97,6 @@
     
 }
 
-@media  screen and (max-width: 769px) {
-    .nav-font {
-        display: none;
-    }
-}
-
-
 
 @media screen and (max-width: 991px) {
 
@@ -58,21 +119,7 @@
     }
 }
 
-@media screen and (max-width: 451px) {
-     .nathan,
-     .junior,
-     .web,
-     .developer,
-     .illustrator{
-        font-size:x-large;
-    }
 
-    .illustrator {
-        background-size: 100px 25px;
-    }
-
-    
-}
 
 @media screen and (min-width: 991px){
     #projects {
@@ -97,27 +144,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
-    .tech-holder {
-        display: none;
-    }
 
-    .row {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-
-    .tech-icons {
-        height: 100px;
-        
-        img {
-        height: 150px;
-        padding: 0 5px;
-        filter: brightness(0%);
-    
-    }
-}
-}
 
 @media screen and (min-width: 873px) {
     .project-caption-container {
@@ -196,20 +223,4 @@
     margin-top: 10px;
 }
 
-}
-
-@media screen and (min-width: 769px) {
-    .contact-image2 {
-        display: none;
-    }
-    
-}
-
-@media screen and (max-width: 564px) {
-    .experience-text,
-    .about-text,
-    .contact-text {
-        font-size: 16px;
-    }
-    
 }
